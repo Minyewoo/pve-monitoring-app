@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:pve_monitoring_app/application/di/di.dart';
 
 void main() {
+  configureDependencies(); 
   runApp(const MainApp());
 }
 
